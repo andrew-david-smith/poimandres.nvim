@@ -510,22 +510,22 @@ function M.get(config)
     TerminalNormal = { link = 'SagaNormal' },
   }
 
-  vim.g.terminal_color_0 = p.background3 -- black
-  vim.g.terminal_color_8 = p.background3 -- bright black
-  vim.g.terminal_color_1 = p.pink3 -- red
-  vim.g.terminal_color_9 = p.pink3 -- bright red
-  vim.g.terminal_color_2 = p.teal1 -- green
-  vim.g.terminal_color_10 = p.teal1 -- bright green
-  vim.g.terminal_color_3 = p.yellow -- yellow
-  vim.g.terminal_color_11 = p.yellow -- bright yellow
-  vim.g.terminal_color_4 = p.blue1 -- blue
-  vim.g.terminal_color_12 = p.blue2 -- bright blue
-  vim.g.terminal_color_5 = p.pink2 -- magenta
-  vim.g.terminal_color_13 = p.pink2 -- bright magenta
-  vim.g.terminal_color_6 = p.blue1 -- cyan
-  vim.g.terminal_color_14 = p.blue2 -- bright cyan
-  vim.g.terminal_color_7 = p.white -- white
-  vim.g.terminal_color_15 = p.white -- bright white
+  -- vim.g.terminal_color_0 = p.background3 -- black
+  -- vim.g.terminal_color_8 = p.background3 -- bright black
+  -- vim.g.terminal_color_1 = p.pink3 -- red
+  -- vim.g.terminal_color_9 = p.pink3 -- bright red
+  -- vim.g.terminal_color_2 = p.teal1 -- green
+  -- vim.g.terminal_color_10 = p.teal1 -- bright green
+  -- vim.g.terminal_color_3 = p.yellow -- yellow
+  -- vim.g.terminal_color_11 = p.yellow -- bright yellow
+  -- vim.g.terminal_color_4 = p.blue1 -- blue
+  -- vim.g.terminal_color_12 = p.blue2 -- bright blue
+  -- vim.g.terminal_color_5 = p.pink2 -- magenta
+  -- vim.g.terminal_color_13 = p.pink2 -- bright magenta
+  -- vim.g.terminal_color_6 = p.blue1 -- cyan
+  -- vim.g.terminal_color_14 = p.blue2 -- bright cyan
+  -- vim.g.terminal_color_7 = p.white -- white
+  -- vim.g.terminal_color_15 = p.white -- bright white
 
   return theme
 end
